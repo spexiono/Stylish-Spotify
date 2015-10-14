@@ -1,0 +1,19 @@
+.now-playing-widgets {
+ display: none;
+ border-top: 0px;
+}
+
+.media.artist .media-image .media-image-internal, .media.artist .media-image .media-placeholder, .media.user .media-image .media-image-internal, .media.user .media-image .media-placeholder {
+    border-radius: 0px;
+}
+
+.media:not(.simple).artist .media-image .media-image-internal, .media:not(.simple).artist .media-image .media-placeholder, .media:not(.simple).user .media-image .media-image-internal, .media:not(.simple).user .media-image .media-placeholder {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
